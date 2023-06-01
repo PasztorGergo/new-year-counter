@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @apply bg-[radial-gradient(120.74%_496.44%_at_12.37%_25.14%,#1F2937_0%,#2F4A70_100%)] bg-no-repeat h-screen w-full text-white;
+}
+body,
+div#root {
+  @apply h-screen w-full;
+}
