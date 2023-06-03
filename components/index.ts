@@ -1,1 +1,2 @@
-export { NumberCard } from "./numberCard";
+export { SecondsCard } from "./secondsCard";
+export { Number } from "./Number";
